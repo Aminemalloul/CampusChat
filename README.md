@@ -1,7 +1,10 @@
 # Distributed Applications - Final Project: "CampusChat: Android Chat Application" By Mohammed Amine Malloul
 
 ## Overview 
-CampusChat is an Android-based chat application designed for easy and efficient communication within campus communities. Utilizing Firebase for database management and user authentication, the application supports text and multimedia messaging in a user-friendly environment.
+CampusChat is an Android-based chat application designed for easy and efficient communication within campus communities. Utilizing Firebase for database management, user authentication and multimidia storage, the application supports text and multimedia messaging in a user-friendly environment.
+
+### Note
+The Dockerfile sets up an Android SDK environment using a pre-configured image and builds your project. For actual device emulation, you would typically need to run the emulator on a host machine or use a cloud-based emulator service. Adjust the Dockerfile as needed based on your specific requirements and environment constraints.
 
 
 ## Features
@@ -11,7 +14,7 @@ CampusChat is an Android-based chat application designed for easy and efficient 
 - Group Chats: Supports creating group chats, allowing multiple users to communicate simultaneously. 
 - Edit and Delete Messages: Messages can be modified or deleted, providing flexibility in communication. 
 - Persistent Chat Summaries: The home screen displays an updated list of recent conversations, including group chats.
-- 
+
 ## Development Details
 ### Environment
 - IDE: Android Studio
@@ -55,5 +58,5 @@ CampusChat is an Android-based chat application designed for easy and efficient 
 - Media Message Handling: Ensured compatibility with various media types and integrated in-app playback capabilities. 
 - Group Chat Management: Implemented logic for creating, updating, and maintaining group chats along with chat summaries. 
 - Dynamic Data Handling: Devised methods to handle the dynamic nature of messaging, including edits and deletions, across individual and group chats.
-- 
+
 This README provides an overview of the CampusChat application's functionalities, development environment, and key features. It serves as an intermediate documentation to assist in understanding the application's structure and core components. Further details can be added as the development progresses and new features are implemented.
